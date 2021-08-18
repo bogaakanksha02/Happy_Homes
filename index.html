@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Home | HappyHomes</title>
+</head>
+<body>
+    <!-- Navigation Menu -->
+    <div class="nav-bar">
+        <div class="logo">
+            <h1>HAPPY<span>HOMES</span></h1>
+        </div>
+        <nav id="menu-bar">
+            <ul>
+                <li><a href="#" class="active">HOME</a></li>
+                <li><a href="about-us.html">ABOUT US</a></li>
+                <li><a href="services.html">SERVICES</a></li>
+                <li><a href="portfolio.html">PORTFOLIO</a></li>
+                <li><a href="contact-us.html">CONTACT US</a></li>
+                <li>
+                    <div class="search">
+                        <img src="./images/search.png">
+                        <input type="text">
+                    </div>
+                </li>
+            </ul>
+            <p class="lite-text">MENU</p>
+            <img src="./images/close.png" class="close-icon" onclick="closemenu()">
+        </nav>
+        <img src="./images/menu.png" class="menu-icon" onclick="openmenu()">
+    </div>
+    <!-- Page Content -->
+
+    <section class="home">
+        <div class="slider">
+            <div class="slide active" style="background-image: url('./images/bedroom.jpg')">
+                <div class="container">
+                    <div class="caption">
+                        <h1><span>1. Bed Room</span></h1>
+                        <p><span>Have a sound sleep...</span></p>
+                        <a href="bed-room.html">Explore</a>
+                    </div>
+                </div>
+            </div>
+            <div class="slide" style="background-image: url('./images/kitchen.jpg')">
+                <div class="container">
+                    <div class="caption">
+                        <h1><span>2. Kitchen Room</span></h1>
+                        <p><span>Meals and Memories are made here...</span></p>
+                        <a href="kitchen-room.html">Explore</a>
+                    </div>
+                </div>
+            </div>
+            <div class="slide" style="background-image: url('./images/livingroom.jpg')">
+                <div class="container">
+                    <div class="caption">
+                        <h1><span>3. Living Room</span></h1>
+                        <p><span>Have a joyfull moments...</span></p>
+                        <a href="living-room.html">Explore</a>
+                    </div>
+                </div>
+            </div>
+            <div class="slide" style="background-image: url('./images/bathroom.jpg')">
+                <div class="container">
+                    <div class="caption">
+                        <h1><span>4. Bath Room</span></h1>
+                        <p><span>Enjoy the ultimate pleasure of bathing...</span></p>
+                        <a href="bath-room.html">Explore</a>
+                    </div>
+                </div>
+            </div>
+            <div class="slide" style="background-image: url('./images/diningarea.jpg')">
+                <div class="container">
+                    <div class="caption">
+                        <h1><span>5. Dining Area</span></h1>
+                        <p><span>Come Together at one Place. Family..FOOD..Friends</span></p>
+                        <a href="dining-room.html">Explore</a>
+                    </div>
+                </div>
+            </div>
+            <div class="slide" style="background-image: url('./images/wardrobes.jpg')">
+                <div class="container">
+                    <div class="caption">
+                        <h1><span>6. Wardrobes</span></h1>
+                        <p><span>Arrange your things in a systematic order...</span></p>
+                        <a href="wardrobes.html">Explore</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- controls  -->
+        <div class="controls">
+            <div class="prev">
+                <</div> <div class="next">>
+            </div>
+        </div>
+
+        <!-- indicators -->
+        <div class="indicator">
+        </div>
+
+    </section>
+
+    <section class="work-process">
+        <div class="headings">
+            <h1>Our Work Process</h1>
+        </div>
+        <div class="wrk-sec">
+            <div class="work">
+                <div class="work-pro">
+                    <div class="wrk-img">
+                        <img src="./images/welisten.png">
+                    </div>
+                </div>
+                <div class="description">
+                    <h2>We Listen</h2>
+                </div>
+            </div>
+            <div class="work">
+                <div class="work-pro">
+                    <div class="wrk-img">
+                        <img src="./images/innovate.png">
+                    </div>
+                </div>
+                <div class="description">
+                    <h2>We Innovate</h2>
+                </div>
+            </div>
+            <div class="work">
+                <div class="work-pro">
+                    <div class="wrk-img">
+                        <img src="./images/qualitycheck.png">
+                    </div>
+                </div>
+                <div class="description">
+                    <h2>Quality Check</h2>
+                </div>
+            </div>
+            <div class="work">
+                <div class="work-pro">
+                    <div class="wrk-img">
+                        <img src="./images/wedeliver.png">
+                    </div>
+                </div>
+                <div class="description">
+                    <h2>We Deliver</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <div class="head">
+            <h6>Testimonials</h6>
+            <h1>Our Customer Words</h1>
+        </div>
+
+        <div class="container1">
+            <div class="sub-container">
+                <div class="teams">
+                    <img src="./images/male_avatar.png" alt="">
+                    <div class="name">Sathyam</div>
+                    <div class="desig">Delhi</div>
+                    <div class="about-team">"Happy with their creative and innovative interior designing for my newly
+                        constructed home where everything fell in my budget.One of the best affordable interior
+                        designers in the city."</div>
+                </div>
+
+                <div class="teams">
+                    <img src="./images/male_avatar.png" alt="">
+                    <div class="name">Shivam</div>
+                    <div class="desig">Hyderabad</div>
+                    <div class="about-team">"Their work is very elegant and unique. Perfectly hand crafted and custom made. Feel free to discuss your choices and opinions for your interior decors. Friendly customer
+                    responses"</div>
+                </div>
+
+                <div class="teams">
+                    <img src="./images/male_avatar.png" alt="">
+                    <div class="name">Sundaram</div>
+                    <div class="desig">Vishakapatnam</div>
+                    <div class="about-team">"A proactive team which takes care and understands its customers. My living room designed by them looks like a piece of art.The best thing is the transparency and elasticity they work with."</div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="hire-us">
+        <div class="h-header">
+            <h1>Reasons to Hire Us</h1>
+            <h6>We make your dreams a Reality!!!<br>
+            Perfectly used spaces, modern storage ideas, unique color scheme and clutter-free design.</h6>
+        </div>
+
+        <div class="container1">
+            <div class="sub-container">
+                <div class="teams">
+                    <img src="./images/trusted.png" alt="">
+                    <div class="name">Trusted Company</div>
+                    <div class="about-team">A Place where Quality meets Guarantee with great innovation! Our Client
+                        is the soul of Our Company.</div>
+                </div>
+
+                <div class="teams">
+                    <img src="./images/destination.png" alt="">
+                    <div class="name">One Stop Destination</div>
+                    <div class="about-team">Whatever your needs be, we’ll provide you with tailor-made solutions that
+                        breathe life in your interiors</div>
+                </div>
+
+                <div class="teams">
+                    <img src="./images/prices.png" alt="">
+                    <div class="name">Affordable Prices</div>
+                    <div class="about-team">There is room for every single style and budget, with no compromise on
+                        quality standards where you get no where</div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-left">
+            <div class="footer-items">
+                <h1>Happy Homes</h1>
+                <p>
+                    Be faithful to your own taste, because nothing you really like is ever out of style.The best
+                    rooms have something to say about the people who live in them.
+                </p>
+            </div>
+            <div class="footer-items">
+                <h2>Quick Links</h2>
+                <div class="border"></div>
+                <ul>
+                    <a href="index.html">
+                        <li>Home</li>
+                    </a>
+                    <a href="about-us.html">
+                        <li>About Us</li>
+                    </a>
+                    <a href="services.html">
+                        <li>Services</li>
+                    </a>
+                    <a href="portfolio.html">
+                        <li>Portfolio</li>
+                    </a>
+                    <a href="contact-us.html">
+                        <li>Contact Us</li>
+                    </a>
+                </ul>
+            </div>
+            <div class="footer-items">
+                <h2>Portfolio</h2>
+                <div class="border"></div>
+                <ul>
+                    <a href="bed-room.html">
+                        <li>Bedroom</li>
+                    </a>
+                    <a href="kitchen-room.html">
+                        <li>Kitchen</li>
+                    </a>
+                    <a href="living-room.html">
+                        <li>Livingroom</li>
+                    </a>
+                    <a href="bath-room.html">
+                        <li>Bathroom</li>
+                    </a>
+                    <a href="dining-room.html">
+                        <li>Dining Area</li>
+                    </a>
+                    <a href="wardrobes.html">
+                        <li>Wardrobes</li>
+                    </a>
+                </ul>
+            </div>
+            <div class="footer-items">
+                <h2>Contact Us</h2>
+                <div class="border"></div>
+                <ul>
+                    <li><i class="fa fa-map-marker"></i>1-243,Madhapur,Hyderabad,500018</li>
+                    <li><i class="fa fa-phone"></i>+91 9876543210</li>
+                    <li><i class="fa fa-envelope"></i>info@happyhomes.com</li>
+                </ul>
+                <div class="social-media">
+                    <a href=""><i class="fa fa-facebook"></i></a>
+                    <a href=""><i class="fa fa-instagram"></i></a>
+                    <a href=""><i class="fa fa-twitter"></i></a>
+                    <a href=""><i class="fa fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            Copyright &copy; Happy Homes 2020. All Rights reserved.
+            Designed by <a href="#">Happy Homes</a>
+        </div>
+    </footer>
+    <!-- JS TO OPEN AND CLOSE NAVIGATION MENU -->
+    <script src="./js/script.js"></script>
+</body>
+</html>
